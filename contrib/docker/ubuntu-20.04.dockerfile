@@ -25,7 +25,7 @@
 # STAGE 1: Compile and build the application
 #
 
-FROM ubuntu:20.04 as builder
+FROM ubuntu:23.10 as builder
 
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
